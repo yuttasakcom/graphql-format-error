@@ -14,7 +14,7 @@ const resolvers = {
   Query: {
     hello: () => 'Hello, GraphQL',
     error: () => {
-      const errors = [{ message: 'Valid something' }]
+      const errors = [{ message: 'Invalid something' }]
       const error = new Error('Invalid input')
       error.data = errors
       error.code = 422

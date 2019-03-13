@@ -18,7 +18,7 @@ query {
       "status": 422,
       "data": [
         {
-          "message": "Valid something"
+          "message": "Invalid something"
         }
       ]
     }
